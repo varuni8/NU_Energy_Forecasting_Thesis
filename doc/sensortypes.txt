@@ -1,0 +1,31 @@
+The following devices are used:
+
+"MCO Home A8_9" multisensor: 6 devices, z-wave based, 11th floor NU building
+"Nordic Thingy:52" multisensor: about 50 devices, bluetooth based, mostly 10/11/12 th floor NU building
+
+MCO sensors:
+
+air_temperature			temperature (Celsius)
+carbon_dioxide_co2_level	CO-2 level in ppm (parts per million); only 2 units active
+general_purpose			people presence detected (1) or not (0)
+humidity			humidity level (%)
+illuminance			light level (lux)
+loudness			noise level (dB)
+particulate_matter_2_5		dust particle concentration (PM-2.5 level)
+smoke_density			smoke detected (always 0 unless there is fire)
+volatile_organic_compound_level	VOC (organic gas) concentration, various causes
+
+Thingy:
+
+TVOC				(Total) VOC (organic gas) concentration, various causes
+color_b				light intensity blue color (lux)
+color_c				light intensity clear (white) color (lux)
+color_g				light intensity green color (lux)
+color_r				light intensity red color (lux)
+eCO2				estimated CO2 level (ppm)
+humidity			humidity level (%)
+pressure			air pressure (kPa)
+rssi				RSSI signal strength to Bluetooth IoT gateway
+sound				noise level (peak audio sensor amplitude over period)
+temperature			temperature (Celcius times 100); higher than room temperature due to packaging/charging
+voltage				voltage level (V) of the onboard battery, recharged when beneath certain level
